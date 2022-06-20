@@ -4,6 +4,9 @@
 }
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
@@ -11,4 +14,14 @@ header {
   top: 0;
   padding: 10px;
   border: 2px;
-  text-align: center;}
+  text-align: center;
+  color: blue;
+}
+
+.lado-direito {
+float: right;
+}
+
+.lado-esquerdo {
+float: left;
+}
