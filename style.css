@@ -9,6 +9,10 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+img {
+  width: 200px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -17,11 +21,15 @@ header {
   text-align: center;
   color: blue;
 }
-
-.lado-direito {
-float: right;
+aside {
+  margin-left: 80%;
+  width: 20%;
 }
 
+article {
+  width: 70%;
+}
 .lado-esquerdo {
-float: left;
+  top: 0;
+  height: 0;
 }
